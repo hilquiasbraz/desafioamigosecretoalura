@@ -70,6 +70,15 @@ body {
     text-align: center;
 }
 
+.sub-title {
+    font-family: "Monaco", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-button-hover);
+    margin: 10px 0;
+    text-align: center;
+}
+
 /* Contêineres de entrada e botão */
 .input-wrapper {
     display: flex;
