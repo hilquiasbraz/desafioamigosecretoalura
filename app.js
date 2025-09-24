@@ -32,7 +32,20 @@ function listaDeAmigos(nome) {
         lista.textContent = amigo;
         amigos.appendChild(lista);
     }
-    // let lista = document.createElement('li');
-    // lista.textContent = nome;
-    // amigos.appendChild(lista);
+}
+
+function sortearAmigo() {
+    let resultado = document.getElementById('resultado');
+    if (nomeAmigoSecreto.length === 0) {
+        if (resultado) {
+            resultado.innerHTML = 'Nenhum amigo cadastrado para sortear.';
+        }
+        return;
+    }
+    let indiceAleatorio = Math.floor(Math.random() * nomeAmigoSecreto.length);
+    let nomeSorteado = nomeAmigoSecreto[indiceAleatorio];
+    if (resultado) {
+        resultado.innerHTML = `Amigo sorteado: ${nomeSorteado}`;
+    }
+    return nomeSorteado;
 }
