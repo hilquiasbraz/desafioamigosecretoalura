@@ -23,3 +23,5 @@ O programa inclui validação do campo de entrada, não permitindo que sejam adi
 4. Clique no botão **Sortear** para escolher um amigo aleatoriamente.
 
 O projeto foi desenvolvido como um exercício para aprender a programar e manipular elementos da página de forma simples e acessível.
+
+<img width="1912" height="899" alt="image" src="https://github.com/user-attachments/assets/1841e3a8-74a1-442c-8964-4bddf0bd9520" />
